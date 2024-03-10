@@ -8,3 +8,5 @@ highlightElement=false
 screenshotOnFailure=true
 screenshotOnSuccess=true
 screenshotOnSkip=false
+gridURL=https://18892.8
+gridPort=22
