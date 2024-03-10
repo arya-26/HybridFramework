@@ -8,3 +8,4 @@ highlightElement=false
 screenshotOnFailure=true
 screenshotOnSuccess=true
 screenshotOnSkip=false
+authentication=arya
