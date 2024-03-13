@@ -8,9 +8,9 @@ highlightElement=false
 screenshotOnFailure=true
 screenshotOnSuccess=true
 screenshotOnSkip=false
-<<<<<<< HEAD
+
 gridURL=https://18892.8
 gridPort=22
-=======
+
 authentication=arya
->>>>>>> 14d967bce9cfcb1027377fed14184f8959860ef9
+
