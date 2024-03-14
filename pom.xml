@@ -56,13 +56,6 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
-<<<<<<< HEAD
-	</plugins>
+</plugins>
 </build>
-=======
-      
-	</plugins>
-</build>
-
->>>>>>> 7e9974415b193587070a969ffb7162a69e36cd9e
 </project>
