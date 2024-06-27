@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <listeners>
-    <listener class-name="com.sper.listners.ReportListener"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)" verbose="0">
+  <test thread-count="5" name="TestCreCourse(failed)" verbose="0">
     <classes>
-      <class name="com.sper.testcases.RegisterNewUser">
+      <class name="com.sper.testcases.CreCour">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="CreateNewUser" invocation-numbers="0"/>
+          <include name="createCourse" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.sper.testcases.RegisterNewUser -->
+      </class> <!-- com.sper.testcases.CreCour -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- TestCreCourse(failed) -->
 </suite> <!-- Failed suite [Suite] -->

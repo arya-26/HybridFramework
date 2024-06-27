@@ -21,4 +21,14 @@ public class CustomDataProvider {
 		return arr;
 
 }
+	
+@DataProvider(name = "createCourse")
+	
+	public static Object[][] createNewCourse(){
+		System.out.println("******** LOG:INFO- Setting up test data ********");
+		Object[][] arr=ExcelReader.getDataFromExcel("CreateCourse");
+		System.out.println("******** LOG:INFO- Test data setup completed ********");
+		return arr;
+
+}
 }

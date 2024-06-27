@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.sper.dataprovider.ConfigReader;
+import com.sper.dataprovider.ConfigReader1;
 
 public class Utility {
 	
@@ -33,11 +34,11 @@ public class Utility {
 
 		js.executeScript("arguments[0].scrollIntoView(true)", element);
 
-		if(ConfigReader.getProperty("highlightElement").equalsIgnoreCase("true"))
-		{
-			highlightElement(driver, element);
-		}
+		if(ConfigReader1.property("highlightElement").equalsIgnoreCase("true")) {
 		
+			highlightElement(driver, element);
+		
+		}
 		return element;
 	}
 

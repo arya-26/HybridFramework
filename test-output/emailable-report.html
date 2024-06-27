@@ -8,11 +8,24 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,755</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">TestCreCourse</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,500</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.sper.testcases.RegisterNewUser</td><td><a href="#m0">CreateNewUser</a></td><td rowspan="1">1709595486882</td><td rowspan="1">5169</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestCreCourse &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.sper.testcases.CreCour</td><td><a href="#m0">createCourse</a></td><td rowspan="1">1719496725038</td><td rowspan="1">11709</td></tr><tr><th colspan="4">TestCreCourse &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.sper.testcases.CreCour</td><td><a href="#m1">loginToapp</a></td><td rowspan="1">1719496722188</td><td rowspan="1">2738</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.sper.testcases.RegisterNewUser#CreateNewUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>arya</td><td>arya@test.com</td><td>arya@123</td><td>Java</td><td>Female</td><td>Goa</td><td>Playing</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestCreCourse</h2><h3 id="m0">com.sper.testcases.CreCour#createCourse</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>/TestData/sampleimage.jpg</td><td>Test course3</td><td>course desc3</td><td>GCP</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //td[normalize-space()=&apos;Test course2&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\binuk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51831/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b06842a93168f84e1e853231765da9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.sper.helper.Utility.getElement(Utility.java:31)
+	at com.sper.pages.CourPage.verifyCoursePresence(CourPage.java:38)
+	at com.sper.testcases.CreCour.createCourse(CreCour.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.sper.testcases.CreCour#loginToapp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@email.com</td><td>admin@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
